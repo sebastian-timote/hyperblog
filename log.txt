@@ -1,0 +1,47 @@
+commit bf04a3ccad2c086b466b28efefca9814668d0fce
+Author: sebas <stimotev11@gmail.com>
+Date:   Wed Sep 28 23:35:45 2022 -0500
+
+    añado vitacora 1
+
+commit 552e25af1e02e239fd4ddc852228c6d195909640
+Author: sebas <stimotev11@gmail.com>
+Date:   Wed Sep 28 23:21:21 2022 -0500
+
+    comentariosss
+
+commit 2368b5d723fd41cc6271881cc3ad9194b0e43d89
+Author: sebas <stimotev11@gmail.com>
+Date:   Wed Sep 28 08:51:21 2022 -0500
+
+    volvi al pasado con checkout y modifique historia.txt
+
+commit 8ecd0423657909395892650456b7db752091d1f7
+Author: sebas <stimotev11@gmail.com>
+Date:   Tue Sep 27 00:05:23 2022 -0500
+
+    obra maestra
+
+commit 98a410cbb87fcf5e2ee70469032dbaed24832306
+Author: sebas <stimotev11@gmail.com>
+Date:   Tue Sep 27 00:04:37 2022 -0500
+
+    vida
+
+commit d7d0874e83b51825f0f81f8d0a4abb48e58dfb28
+Author: sebas <stimotev11@gmail.com>
+Date:   Tue Sep 27 00:01:26 2022 -0500
+
+    proyect real con css
+
+commit aedaca5bac7a7febfbedcacc32bef8bf7bc3afcb
+Author: sebas <stimotev11@gmail.com>
+Date:   Sun Sep 25 00:40:01 2022 -0500
+
+    nombre y pais
+
+commit 36f00301fab9ad6fa60206d6920fd481001dcb57
+Author: sebas <stimotev11@gmail.com>
+Date:   Sat Sep 24 23:52:27 2022 -0500
+
+    this is my first commit
