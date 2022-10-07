@@ -1,81 +1,31 @@
-*******************
-****Iniciar Git****
-*******************
-
-git int
-
-*******************
-****Iniciar Git****
-*******************
-
-**********************************
+git init --> inicializar git
 *******Configuración de Git*******
-**********************************
-
 git config
 git config --list
-git config --list --show origin
+git config --list --show origin --> muestra archivos que guarda la configuracion
 git config --list --show-origin
 git config --global
-git config --global user.name "SC"   *--cambio user--*
-git config --global user.email "jesuscastellanospaez@hotmail.com" *--cambio email en repo local--*
-
-**********************************
+git config --global user.name "SC"   -->cambio user
+git config --global user.email "jesuscastellanospaez@hotmail.com" -->cambio email en repo local
 *******Configuración de Git*******
-**********************************
-
-********************************************
-******Agragar a la zona de preparación staging******
-********************************************
-
-git add Archivo.txt *--agrega los cambios de un archivo especifico a staging--*
-
-git add .	*--agrega todos los cambio a staging--*
-
+******Agregar a la zona de preparación staging******
+git add Archivo.txt --> agrega los cambios de un archivo especifico a staging
+git add .	--> agrega todos los cambio a staging
 git add -A
-
-********************************************
-******Agragar a la zona de preparación******
-********************************************
-
-****************************
+******Agregar a la zona de preparación******
 *********Ver estado*********
-****************************
-
 git status
-
-****************************
 *********Ver estado*********
-****************************
-
-***************************************************************************
 *****************Quitar de la zona de preparación staging**************************
-***************************************************************************
-
-git rm --cached archivo.txt (Quitar de la zona de preparación).
-
-***************************************************************************
+git rm --cached archivo.txt -->(Quitar de la zona de preparación).
 *****************Quitar de la zona de preparación staging**************************
-***************************************************************************
-
-***************************************************************************
 *****************borra todo, los cambios hasta el archivo*************************
-***************************************************************************
 git rm --force archivo.txt
-***************************************************************************
 *****************borra todo, los cambios hasta el archivo*************************
-***************************************************************************
-
-************************************************************
 **********************Realizar commint**********************
-************************************************************
-
 git commit -m "Este es el pimer commit de este archivo" *--añade commit--*
 git commit -am "Este es el pimer commit de este archivo" *--agrega a staging y añade commit--*
-
-************************************************************
 **********************Realizar commint**********************
-************************************************************
 
 *****************************************************
 *******Ver el historial de cambios del archivo*******
