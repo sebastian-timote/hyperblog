@@ -1,5 +1,5 @@
 git init --> inicializar git
-*******Configuración de Git*******
+gitk ---> abre editor para ver la historia del proyecto.
 git config
 git config --list
 git config --list --show origin --> muestra archivos que guarda la configuracion
@@ -27,107 +27,47 @@ git commit -m "Este es el pimer commit de este archivo" *--añade commit--*
 git commit -am "Este es el pimer commit de este archivo" *--agrega a staging y añade commit--*
 **********************Realizar commint**********************
 
-*****************************************************
 *******Ver el historial de cambios del archivo*******
-*****************************************************
-
 git log
 git log Archivo.txt
-
-*****************************************************
 *******Ver el historial de cambios del archivo*******
-*****************************************************
 
-***************************************************************
 ************Muestra todos los cambios sobre un archivo*********
-***************************************************************
-
-git show Archivo.txt
-
-***************************************************************
+git show Archivo.txt -->muestra los cambios hechos por el ultimo commit
 ************Muestra todos los cambios sobre un archivo*********
-***************************************************************
 
-**************************************
 **********Comparar versiones**********
-**************************************
-
 git diff commint commint
-
-**************************************
 **********Comparar versiones**********
-**************************************
 
-*****************************************************************************
 ************************Volver a una versión anterior************************
-*****************************************************************************
-
 git reset commit --hard (borramos todos los cambios y lo que tengamos en staging) 
-
 git reset commit --soft (soft conservamos cambios y lo que tengamos en staging) 
-
 git checkout (commit) Archivo.txt
-
 git checkout (rama) Archivo.txt
-*****************************************************************************
 ************************Volver a una versión anterior************************
-*****************************************************************************
 
-****************************************************************************
 **************************Ver Cambio en bytes*******************************
-****************************************************************************
-
 git log --stat(Cambio en bytes)
-
-****************************************************************************
 **************************Ver Cambio en bytes*******************************
-****************************************************************************
-
-***************************************************************************
-****************************Crear una rama*********************************
-***************************************************************************
-
-git branch (branchName)
-
-***************************************************************************
-****************************Crear una rama*********************************
-***************************************************************************
-
-
-***************************************************************************
-**************************Cambiar de rama**********************************
-***************************************************************************
-
-git checkout (branchName)
-
-***************************************************************************
-**************************Cambiar de rama**********************************
-***************************************************************************
-
-*******************************************************************
+///////****COMANDOS BRANCH******//////////
+git branch branchName --> Crear una rama
+git checkout -b nombre_rama --> crea y se mueve dentro de la rama
+git checkout branchName --> cambio de rama
+git push origin nombre_rama --> envia rama local a repo remoto
+git show-branch --> nom muestran las ramas existentes y su historial
+git show-branch --all --> nom muestran las ramas existentes y su historial
+git branch --> veo las ramas
 ************************Merge entre branchs************************
-*******************************************************************
-
 git merge (branchName)
-
 **Estar en la rama master o en la que se quiere dejar el <Head>**
-*******************************************************************
 ************************Merge entre branchs************************
-*******************************************************************
 
-****************************************************
 ************Traer un repositorio externo************
-****************************************************
-
 git remote add origin (url)
 git remote (muestra el origen)
 git remote -v(es verval)
-
 git pull origin master --allow-unrelated-histories (Fuerza la union de las diferentes historias)
-
 git pull origin master (Descarga cambios)
-
 git push (origin) (master) (Sube Cambios)
-****************************************************
 ************Traer un repositorio externo************
-****************************************************
